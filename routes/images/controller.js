@@ -1,9 +1,8 @@
-import fetch from "node-fetch";
+const axios  = require('axios');
 
 async function getImages(){
-    const result = await fetch("https://api.nasa.gov/planetary/apod?api_key=iuenwC5jFVBftgtkvv2iJVBulBzAgPf065FyY9S6&start_date=2022-01-01");
-    const data = await result.json()
-    return data;
+    const result = await axios.get("https://api.nasa.gov/planetary/apod?api_key=iuenwC5jFVBftgtkvv2iJVBulBzAgPf065FyY9S6&start_date=2022-01-01")
+    return result.data;
 }
 
 module.exports = {getImages};
