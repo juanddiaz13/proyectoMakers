@@ -14,6 +14,9 @@
 <h2>1. /api/images/?page=number_of_page </h2>
 <p>Return images from the NASA API in a given page - PAGINATION</p>
 number_of_page is the number of the page desired to retrieve from the NASA API.
+
+  ![plot](./images/im1.png)
+
 Note: I wokred under the assumption that a page were all the pictures of a month of this year (2022)<br>
       1 = JANUARY<br>
       2 = FEBRUARY<br>
@@ -22,4 +25,5 @@ Note: I wokred under the assumption that a page were all the pictures of a month
       5 = MAY
 <h2>2.  /api/images/ultimas?fecha=2022-03-01 </h2>
 <p>Retrieves all the images in the NASA API since the specified date until the present day.</p>
-
+  
+  ![plot2](./images/im2.png)
