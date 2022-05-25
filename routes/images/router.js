@@ -34,4 +34,13 @@ router.get('/ultimas', async function (req = request, resp = response, next) {
   
 });
 
+ /* GET users listing. */
+ router.get('/atleast100', async function (req = request, resp = response, next) {
+
+  //Devuelve todas las imágenes del año 2022 hasta la actualidad, más de 100.
+  const images = await getImagesUltimas(meses[0]);
+  resp.json(images)
+  
+});
+
   module.exports = router;
