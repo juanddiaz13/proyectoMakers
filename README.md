@@ -27,3 +27,8 @@ Note: I wokred under the assumption that a page were all the pictures of a month
 <p>Retrieves all the images in the NASA API since the specified date until the present day.</p>
   
   ![plot2](./images/im2.png)
+  
+  <h2>3.  /api/images/atleast100 </h2>
+<p>Retrieves at least 100 images from the NASA API (from the first day of the year 2022 to the present day </p>
+  
+  ![plot2](./images/im3.png)
